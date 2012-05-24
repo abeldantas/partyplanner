@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @cookbook.title %>
+</p>
+
+<p>
+  <b>Subtitle:</b>
+  <%= @cookbook.subtitle %>
+</p>
+
+<p>
+  <b>Author:</b>
+  <%= @cookbook.author %>
+</p>
+
+<p>
+  <b>Coverart:</b>
+  <%= @cookbook.coverart %>
+</p>
+
+
+<%= link_to 'Edit', edit_cookbook_path(@cookbook) %> |
+<%= link_to 'Back', cookbooks_path %>
