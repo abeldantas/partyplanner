@@ -1,0 +1,86 @@
+/* Foundation v2.2.1 http://foundation.zurb.com */
+/* Artfully masterminded by ZURB  */
+.green{
+background: YellowGreen
+}
+/* --------------------------------------------------
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+#zurBar {
+  background: #222222;
+  border-bottom: solid 4px #7c340a;
+  padding: 15px 20px 13px 20px;
+  text-transform: capitalize;
+  }
+
+@media handheld, only screen and (max-width: 767px) {
+  #zurBar {
+    padding-left: 20px;
+    padding-right: 20px; }
+}
+
+#zurBar h1, #zurBar h2 {
+  margin-bottom: 0;
+  line-height: 1;
+    text-transform: lowercase;}
+#zurBar h1 {
+  color: white;
+  font-size: 14px;
+  font-size: 1.4rem;
+  font-weight: 800; }
+#zurBar h1 a { color: #fff; font-weight: bold; }
+#zurBar h2 a {
+  text-indent: -99999px;
+  display: block;
+  width: 82px;
+  height: 14px;}
+
+
+#zurBar strong { display: block; margin: 0; padding: 0; height: 14px; line-height: 14px; position: relative; bottom: 4px; }
+#zurBar strong a {
+  line-height: 14px;
+  color: #fff;
+  font-weight: 500;
+  padding-right: 12px;
+}
+#zurBar strong a.button { padding: 4px 10px; font-weight: bold; }
+
+/* -----------------------------------------
+   BODY
+----------------------------------------- */
+	body {
+	background: #fff;
+	background:  url(<%= asset_path "foundation/test.png" %>);
+
+	}
+
+h1,h2{	text-transform: uppercase;}
+/* -----------------------------------------
+   RECIPE CSS
+----------------------------------------- */
+#recipe-title{
+	float:center;
+}
+div#recipe-title{
+	text-align:center;
+	margin-top:20px;
+}
+
+
+
+
+/* -----------------------------------------
+   LISTS
+----------------------------------------- */
+
+	li { margin-bottom: 0px; }
+h1,h2,h3,h4,h5,h6{margin-bottom: 0; padding-bottom: 0; display:inline;}
+
+span.blurb{
+	text-align:center
+}
+

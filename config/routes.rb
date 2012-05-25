@@ -1,4 +1,8 @@
 PartyPlanner::Application.routes.draw do
+  get "home/index"
+
+  root :to => "home#index"
+
   resources :ingredients
 
   resources :recipes
@@ -6,6 +10,7 @@ PartyPlanner::Application.routes.draw do
   resources :sections
 
   resources :cookbooks
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
@@ -64,3 +69,4 @@ PartyPlanner::Application.routes.draw do
   # Note: This route will make all actions in every controller accessible via GET requests.
   # match ':controller(/:action(/:id))(.:format)'
 end
+
